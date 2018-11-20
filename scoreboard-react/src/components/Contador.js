@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Contador extends React.Component {
+export default class Contador extends React.Component {
     constructor() {
         super();
 
@@ -34,5 +34,3 @@ class Contador extends React.Component {
         );
     }
 }
-
-export default Contador;
